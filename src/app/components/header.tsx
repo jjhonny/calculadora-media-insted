@@ -31,7 +31,7 @@ export function Header() {
               <span className="sr-only">Alternar tema</span>
             </Button>
             <Link
-              href="https://github.com/yourusername/grade-calculator"
+              href="https://github.com/jjhonny/calculadora-media-insted"
               target="_blank"
               rel="noopener noreferrer"
             >
