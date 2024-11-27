@@ -10,7 +10,8 @@
 </p>
 
 <p align="center">
-     <a href="https://calculadora-media-insted.vercel.app/">📱 Visite o Site</a>
+     <a href="https://calculadora-media-insted.vercel.app/" target="_blank"
+              rel="noopener noreferrer">📱 Visite o Site</a>
 </p>
 
 <h2 id="layout">🎨 Layout</h2>
