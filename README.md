@@ -1,7 +1,7 @@
 <h1 align="center" style="font-weight: bold;">Calculadora de Média Final 💻</h1>
 
 <p align="center">
- <a href="#tech">Tecnologias</a> • 
+ <a href="#technologies">Tecnologias</a> • 
  <a href="#started">Primeiros Passos</a> •
 </p>
 
