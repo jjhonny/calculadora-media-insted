@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { EntradaNota } from "./components/InputNota";
+import { InputNota } from "./components/InputNota";
 
 export default function CalculadoraNotas() {
   const [notas, setNotas] = useState({
@@ -67,37 +67,37 @@ export default function CalculadoraNotas() {
         </CardHeader>
         <CardContent>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <EntradaNota
+            <InputNota
               label="Exercício de Compreensão 1"
               name="compreensao1"
               value={notas.compreensao1}
               onChange={handleInputChange}
             />
-            <EntradaNota
+            <InputNota
               label="Exercício de Compreensão 2"
               name="compreensao2"
               value={notas.compreensao2}
               onChange={handleInputChange}
             />
-            <EntradaNota
+            <InputNota
               label="Prova 1"
               name="prova1"
               value={notas.prova1}
               onChange={handleInputChange}
             />
-            <EntradaNota
+            <InputNota
               label="Prova 2"
               name="prova2"
               value={notas.prova2}
               onChange={handleInputChange}
             />
-            <EntradaNota
+            <InputNota
               label="Portfólio"
               name="portfolio"
               value={notas.portfolio}
               onChange={handleInputChange}
             />
-            <EntradaNota
+            <InputNota
               label="Projeto Integrador"
               name="projetoIntegrador"
               value={notas.projetoIntegrador}

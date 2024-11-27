@@ -1,18 +1,13 @@
 import { Input } from "@/components/ui/input";
 
-interface EntradaNotaProps {
+interface InputNotaProps {
   label: string;
   name: string;
   value: string;
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
-export function EntradaNota({
-  label,
-  name,
-  value,
-  onChange,
-}: EntradaNotaProps) {
+export function InputNota({ label, name, value, onChange }: InputNotaProps) {
   return (
     <div className="flex flex-col space-y-1.5">
       <label
