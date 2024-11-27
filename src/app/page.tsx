@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import confetti from "canvas-confetti";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { InputNota } from "./components/InputNota";
@@ -55,6 +56,14 @@ export default function CalculadoraNotas() {
       getNota(notas.projetoIntegrador) * 0.3;
 
     setMedia(parseFloat(mediaFinal.toFixed(2)));
+
+    if (!isNaN(mediaFinal)) {
+      confetti({
+        particleCount: 100,
+        spread: 80,
+        origin: { x: 0.5, y: 0.5 },
+      });
+    }
   };
 
   return (
