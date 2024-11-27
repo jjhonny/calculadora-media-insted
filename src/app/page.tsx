@@ -56,6 +56,14 @@ export default function CalculadoraNotas() {
       getNota(notas.projetoIntegrador) * 0.3;
 
     setMedia(parseFloat(mediaFinal.toFixed(2)));
+    setNotas({
+      compreensao1: "",
+      compreensao2: "",
+      prova1: "",
+      prova2: "",
+      portfolio: "",
+      projetoIntegrador: "",
+    });
 
     if (!isNaN(mediaFinal)) {
       confetti({
