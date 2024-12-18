@@ -1,17 +1,17 @@
-<h1 align="center" style="font-weight: bold;">Calculadora de Média Final 💻</h1>
+<h1 align="center" style="font-weight: bold;">Final Average Calculator 💻</h1>
 
 <p align="center">
- <a href="#technologies">Tecnologias</a> • 
- <a href="#started">Primeiros Passos</a> •
+ <a href="#technologies">Technologies</a> • 
+ <a href="#started">Getting Started</a> •
 </p>
 
 <p align="center">
-    <b>Site criado com a finalidade de calcular a média final do acadêmico da faculdade Insted, caso o site oficial da instituição esteja fora do ar ou apresente uma média final divergente da esperada.</b>
+    <b>Website created with the purpose of calculating the final academic average at Insted College, if the institution's official website is down or presents a final average that differs from that expected.</b>
 </p>
 
 <p align="center">
      <a href="https://calculadora-media-insted.vercel.app/" target="_blank"
-              rel="noopener noreferrer">📱 Visite o Site</a>
+              rel="noopener noreferrer">📱 Visit the Website</a>
 </p>
 
 <h2 id="layout">🎨 Layout</h2>
@@ -20,7 +20,7 @@
     <img src="./public/exemplo.png" alt="Image do site" width="400px">
 </p>
 
-<h2 id="technologies">💻 Tecnologias</h2>
+<h2 id="technologies">💻 Technologies</h2>
 
 - Next.js 15
 - React 19
